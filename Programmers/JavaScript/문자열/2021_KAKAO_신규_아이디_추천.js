@@ -21,7 +21,7 @@ const solution = (new_id) => {
     if (answer === '') answer = 'a';
     
     // 16자 이상이면 15글자로 제한, .가 맨 끝에 있으면 .도 제거
-    if (answer.length > 15) answer = answer.substr(0,15);
+    answer = answer.substr(0,15);
     if (answer[14] === '.') answer = answer.substr(0,14);
     
     // 2자 이하면 길이가 3이 될 때까지 반복해서 끝에 붙임
