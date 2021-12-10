@@ -98,3 +98,14 @@
 - 정렬이 되어있어야만 사용이 가능하다
 - 일반적으로 Brute Force로 해결하기에는 너무 큰 경우 이진탐색을 사용하면 O(logN)으로 시간복잡도를 줄일 수 있다.
 
+### String (문자열)
+
+- C++의 경우 별도로 split용 함수를 따로 만들어서 문자열을 자를 수 있다.
+- 그 외의 언어는 기본적으로 제공하는 split 함수를 사용할 수 있다.
+- JS 기준 문자열 정리에 필요한 함수들은 아래와 같다.
+  - **split**은 매개변수로 `seperator`와 선택적으로 `limit`를 받는다. (구분자와 문자배열의 최대크기)
+  - **substring**은 매개변수로 `indexStart`와 선택적으로 `indexEnd`를 받는다. (Start부터 End직전까지 잘라서 문자열 반환)
+  - **substr**은 매개변수로 `start`와 선택적으로 `length`를 받는다. (start위치부터 length만큼 문자열을 반환)
+  - **padEnd**는 매개변수로 `targetLength`와 선택적으로 `padString`을 받는다. (targetLength가 현재 length보다 크다면 padString을 채운다. padString의 기본값은 공백!!)
+  - **replace**는 첫 번째 매개변수로 `regex` 혹은 `string`을 받고, 두 번째 매개변수로 `newString` 혹은 `function`을 받는다. (앞은 바꿀 요소에 대한 내용, 뒤는 어떻게 바꿀지에 대한 내용)
+  - 추후 **Regex**에 대해서 다시 정리할 예정입니다.
