@@ -81,6 +81,10 @@
 
 ### DP (동적 프로그래밍)
 
+`Bottom-Up` 예시) [2579_계단 오르기](https://github.com/BoostUpStudy/Solving_Algorithm_By_Type/blob/main/Backjoon/Cpp/DP/S3_2579_%EA%B3%84%EB%8B%A8_%EC%98%A4%EB%A5%B4%EA%B8%B0.cpp)
+
+`Top-down` 예시)
+
 - `Bottom-Up`형태는 반복문, `Top-Down` 형태는 재귀함수를 사용한다.
 - 한번 계산한 값을 저장해서 동일한 연산은 저장된 값을 사용한다. (누적!!!!)
 - 전역에 저장해서 사용하는 경우가 많다
@@ -99,6 +103,8 @@
 - 일반적으로 Brute Force로 해결하기에는 너무 큰 경우 이진탐색을 사용하면 O(logN)으로 시간복잡도를 줄일 수 있다.
 
 ### String (문자열)
+
+예시) [2021 KAKAO 신규 아이디 추천](https://github.com/BoostUpStudy/Solving_Algorithm_By_Type/blob/main/Programmers/JavaScript/%EB%AC%B8%EC%9E%90%EC%97%B4/2021_KAKAO_%EC%8B%A0%EA%B7%9C_%EC%95%84%EC%9D%B4%EB%94%94_%EC%B6%94%EC%B2%9C.js)
 
 - C++의 경우 별도로 split용 함수를 따로 만들어서 문자열을 자를 수 있다.
 - 그 외의 언어는 기본적으로 제공하는 split 함수를 사용할 수 있다.
