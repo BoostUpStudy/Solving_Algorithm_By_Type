@@ -1,3 +1,8 @@
+<div align="right">
+  <a href="https://github.com/BoostUpStudy/Solving_Algorithm_By_Type">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/BoostUpStudy/Solving_Algorithm_By_Type&count_bg=%233D61C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+</div>
+
 # 알고알못의 유형별 알고리즘 해결법
 
 ## 📖 작성자
